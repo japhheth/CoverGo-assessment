@@ -1,13 +1,12 @@
 <template>
   <div class="h-screen flex justify-center items-center">
-    <WelcomeCard />
+    <AgeErrorCard />
   </div>
 </template>
 
 <script>
-import WelcomeCard from "../components/WelcomeCard.vue";
+import AgeErrorCard from "../components/AgeErrorCard.vue";
 export default {
-  name: "HomeView",
-  components: { WelcomeCard },
+  components: { AgeErrorCard },
 };
 </script>
